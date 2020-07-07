@@ -1089,25 +1089,25 @@
         width: 100%;
     }
 
-    .who-we-are .sec-title br,
+    .what-we-do .sec-title br,
     .about-section .sec-title br {
         display: none;
     }
 
-    .who-we-are .content-column {
+    .what-we-do .content-column {
         width: 100%;
     }
 
-    .who-we-are .content-column .inner-box {
+    .what-we-do .content-column .inner-box {
         max-width: 100%;
     }
 
-    .who-we-are .image-column {
+    .what-we-do .image-column {
         position: relative;
         width: 100%;
     }
 
-    .who-we-are .image-column .image-box {
+    .what-we-do .image-column .image-box {
         display: block;
     }
 
@@ -1182,7 +1182,7 @@
         width: 100%;
     }
 
-    .who-we-are .sec-title br,
+    .what-we-do .sec-title br,
     .about-section .sec-title br {
         display: none;
     }

@@ -73,7 +73,7 @@
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Our Work
+                                            <a class="nav-link" href="ourwork.html">Our Work
                                             </a>
                                         </li>
                                         <li class="nav-item active">
@@ -81,7 +81,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="contact.html">Contact</a>
                                         </li>
                                     </ul>
 
@@ -105,13 +105,14 @@
 
     <!-- Breadcroumb Area -->
 
-    <div class="breadcroumb-area bread-bg-2">
+   
+    <div class="breadcroumb-area bread-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcroumb-title text-center">
                         <h1>Cloth Donation to helpless people</h1>
-                        <h6><a href="index.html">Home&nbsp;</a><a href="events.html"> / Events </a> /Cloth Donation to helpless people</h6>
+                        <h6><a href="index.html">Home&nbsp;</a><a href="index.html"> / Events /</a> Event Details </h6>
                     </div>
                 </div>
             </div>
@@ -270,7 +271,7 @@
                                 <h3>Ma Sharda</h3>
                             </a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui corporis iure nihil, numquam veritatis quis nesciunt nobis quae dolores dolor quos eius mollitia sint accusamus magni? Minima pariatur aspernatur et.</p>
+                        <p>We are common people based in Uttarakhand. we are working to make society a better place to live. Educated, Free, and Proud Society. We started our journey in 2002 by making a small group in Masi (Uttarakhand).</p>
 
 
                     </div>
@@ -280,7 +281,7 @@
                             <li>
                                 <a href="index.html">Home</a>
                                 <a href="#">About</a>
-                                <a href="#">Our Works</a>
+                                <a href="ourwork.html">Our Works</a>
                                 <a href="events.html">Events</a>
                                 <a href="#">Contact</a>
                             </li>
@@ -288,30 +289,26 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="contact-info">
-                            <h5>Contact Us</h5>
-                            <p>Altha, Surat <br> India </p>
-                            <p>+91 00000 00000 <br> +91 00000 00000 </p>
+                            <h5><span><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Address</span></h5>
+                            <p>Maa Sharda Jan Seva Samiti, Masi, Almora, Uttarakhand 263658, India</p>
+                            <h5><span><i class="fa fa-facebook"></i><a href="https://www.facebook.com/mashardaservice/"></a></span>&nbsp;&nbsp;&nbsp;<span><i class="fa fa-google"></i><a href="https://www.google.co.jp/maps/place/Maa+Sharda+Jan+Seva+Samiti/@29.817738,79.281996,15z/data=!4m5!3m4!1s0x0:0x380ac11bfbc24fdf!8m2!3d29.817738!4d79.281996"></a></span></h5>
+                            
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="subscribe-form">
-                            <h5>Subscribe</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi nulla reiciendis ducimus.</p>
-                            <form action="index.html">
-                                <input type="email" placeholder="Email">
-                                <button><i class="fa fa-paper-plane"></i></button>
-                            </form>
+                            <h5><span><i class="fa fa-phone"></i>&nbsp;&nbsp;Contact</span></h5>
+                            <p><a href="tel:9582471559" class="cl3">+91 95824 71559</a></p>
+                            <h5><span><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email</span></h5>
+                            <p><a href="mailto:rudra@mabharati.com" class="cl3">rudra@mabharati.com</a></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p class="copyright-line">© 2020 Deep Kapadia. All rights reserved.</p>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p class="privacy">Privacy Policy | Terms &amp; Conditions</p>
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <p class="copyright-line">© 2020 Maa Sharda Jan Seva Samiti. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -320,7 +317,8 @@
 
     <!-- Scroll Top Area -->
 
-    <a href="#top" class="go-top" style="display: block;"><i class="fa fa-angle-up"></i></a>
+    <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
+
 
     <!-- Popper JS -->
     <script src="assets/js/popper.min.js"></script>
@@ -345,6 +343,23 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 
+<script>
+        // ===== Scroll to Top ==== 
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200); // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200); // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function() { // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0 // Scroll to top of body
+            }, 500);
+        });
+
+    </script>
+    
 </body>
 
 </html>
