@@ -70,8 +70,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-    {
+h5 {
     position: relative;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
@@ -260,6 +259,7 @@ li {
     background: #f9004d;
     z-index: 999;
 }
+
 .site-preloader-wrap .spinner {
     margin: 0;
     position: absolute;
@@ -268,6 +268,7 @@ li {
     margin-top: -25px;
     margin-left: -25px;
 }
+
 .spinner {
     width: 40px;
     height: 40px;
@@ -277,15 +278,18 @@ li {
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
 }
+
 @-webkit-keyframes sk-scaleout {
     0% {
         -webkit-transform: scale(0)
     }
+
     100% {
         -webkit-transform: scale(1.0);
         opacity: 0;
     }
 }
+
 @keyframes sk-scaleout {
     0% {
         -webkit-transform: scale(0);
@@ -655,7 +659,7 @@ textarea:focus::-webkit-input-placeholder {
     color: #f9004d;
 }
 
-.main-menu li.nav-item:hover > a {
+.main-menu li.nav-item:hover>a {
     color: #F41D0A !important;
 }
 
@@ -1050,7 +1054,7 @@ sec-title {
     z-index: 9;
 }
 
-.sec-title > .title {
+.sec-title>.title {
     position: relative;
     font-size: 14px;
     line-height: 1.2em;
@@ -1062,7 +1066,7 @@ sec-title {
     text-transform: uppercase;
 }
 
-.sec-title > h2 {
+.sec-title>h2 {
     font-family: 'Poppins', sans-serif;
     position: relative;
     line-height: 1.1em;
@@ -1072,13 +1076,13 @@ sec-title {
     letter-spacing: 2px;
 }
 
-.sec-title > h2 span {
+.sec-title>h2 span {
     font-family: 'Rancho', cursive;
     font-weight: 400;
     color: #f9004d;
 }
 
-.sec-title.light > span,
+.sec-title.light>span,
 .sec-title.light h2 {
     color: #ffffff;
 }
@@ -1225,7 +1229,7 @@ sec-title {
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
-     background-image: url(../img/cta-bg-1.png);
+    background-image: url(../img/cta-bg-1.png);
 }
 
 
@@ -2343,7 +2347,7 @@ p.event-date {
 }
 
 .single-service-item.active {
-     box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.15);
     color: #000;
 }
 
@@ -2359,35 +2363,6 @@ p.event-date {
 
 .single-service-item.active h5::after {
     background: #000;
-}
-
-.choose-us-content h5 {
-    font-size: 30px;
-    font-weight: 600;
-    margin: 20px 0;
-}
-.choose-us-content p {
-    font-size: 16px;
-    line-height: 30px;
-}
-
-.choose-us-content {
-    padding: 35px;
-    margin-top: 10px;
-}
-
-.single-choose-item i {
-    font-size: 40px;
-    color: #00B965;
-    float: left;
-    border: 2px solid;
-    border-radius: 50%;
-    padding: 7px;
-}
-
-.single-choose-content {
-    padding-left: 100px;
-    margin: 30px 0;
 }
 
 /* Our Work 
@@ -2920,9 +2895,17 @@ a.line-btn:hover {
 }
 
 @keyframes beat {
-    0%{transform: scale(1,1)}
-    50%{transform: scale(0.9,0.9)}
-    100%{transform: scale(1,1)}
+    0% {
+        transform: scale(1, 1)
+    }
+
+    50% {
+        transform: scale(0.9, 0.9)
+    }
+
+    100% {
+        transform: scale(1, 1)
+    }
 }
 
 
@@ -2930,26 +2913,26 @@ a.line-btn:hover {
 ==================== */
 
 .achievement-area {
-background-image: url(../img/cta-bg-1.png);
-	height: 300px;
-	background-size: cover;
-	background-position: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	position: relative;
-	z-index: 1;
+    background-image: url(../img/cta-bg-1.png);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .achievement-area::after {
 
-	 position: absolute;
+    position: absolute;
     content: "";
     top: 0;
     left: 0;
@@ -2958,124 +2941,124 @@ background-image: url(../img/cta-bg-1.png);
     background: #000000;
     opacity: 0.6;
     z-index: -1;
-	
+
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.achievement-area {
-		height: 250px;
-	}
+    .achievement-area {
+        height: 250px;
+    }
 }
 
 @media (max-width: 575px) {
-	.achievement-area {
-		height: 400px;
-	}
+    .achievement-area {
+        height: 400px;
+    }
 }
 
 .single-counter-box {
-	text-align: center;
+    text-align: center;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-	.single-counter-box {
-		margin-bottom: 30px;
-	}
-    
+    .single-counter-box {
+        margin-bottom: 30px;
+    }
+
     .achievement-area {
-		height: 400px;
-	}
+        height: 400px;
+    }
 }
 
 .single-counter-box h6 {
-	font-size: 17px;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	position: relative;
-	padding-top: 15px;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding-top: 15px;
 }
 
 .single-counter-box h6:before {
-	position: absolute;
-	content: "";
-	width: 40px;
-	height: 3px;
-	top: -8px;
-	left: 50%;
-	background: #f9004d;
-	margin-left: -20px;
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    top: -8px;
+    left: 50%;
+    background: #f9004d;
+    margin-left: -20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.single-counter-box h6 {
-		font-size: 15px;
-	}
+    .single-counter-box h6 {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 575px) {
-	.single-counter-box h6 {
-		margin-bottom: 30px;
-	}
+    .single-counter-box h6 {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 575px) {
-	.single-counter-box p {
-		margin: 0;
-	}
+    .single-counter-box p {
+        margin: 0;
+    }
 }
 
 
 .single-counter-box p span {
-	font-size: 50px;
-	color: #fff;
-	font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.single-counter-box p span {
-		font-size: 40px;
-	}
+    .single-counter-box p span {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-	.single-counter-box p span {
-		font-size: 40px;
-	}
+    .single-counter-box p span {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 575px) {
-	.single-counter-box p span {
-		font-size: 30px;
-	}
+    .single-counter-box p span {
+        font-size: 30px;
+    }
 }
 
 .skill-content-area {
-	padding: 50px;
+    padding: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.skill-content-area {
-		padding: 0;
-		padding-left: 30px;
-	}
+    .skill-content-area {
+        padding: 0;
+        padding-left: 30px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.progress-bar-area {
-		margin-top: 30px;
-	}
+    .progress-bar-area {
+        margin-top: 30px;
+    }
 }
 
 .progress-bar-area h6 {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.progress-bar-area h6 {
-		margin-bottom: 5px;
-	}
+    .progress-bar-area h6 {
+        margin-bottom: 5px;
+    }
 }
 
 /* Contact Page CSS 
@@ -3109,41 +3092,11 @@ background-image: url(../img/cta-bg-1.png);
     margin-top: 50px;
 }
 
-/* .contact-form input {
-    position: relative;
-    border: none !important;
-    outline: none;
-    font-size: 24px;
-    box-sizing: border-box;
-    color: #000;
-    background: transparent;
-    letter-spacing: 4px;
-    border-radius: 8px;
-    box-shadow: -4px -4px 10px rgba(225, 225, 225, 1),
-                inset 4px 4px 10px rgba(0, 0, 0, 0.05),
-                inset -4px -4px 10px rgba(225, 225, 225, 1),
-                4px 4px 10px rgba(0, 0, 0, 0.05);
-} */
-
 .contact-form input::placeholder {
 
     color: #000;
-  
-}
 
-/* .contact-form textarea {
-    background: transparent !important;
-    letter-spacing: 4px !important;    
-    box-sizing: border-box !important;
-    outline: none !important;
-    border-radius: 8px !important;
-    color: #000;
-    border: none;
-    box-shadow: -4px -4px 10px rgba(225, 225, 225, 1),
-                inset 4px 4px 10px rgba(0, 0, 0, 0.05),
-                inset -4px -4px 10px rgba(225, 225, 225, 1),
-                4px 4px 10px rgba(0, 0, 0, 0.05) 
-} */
+}
 
 .contact-form h3 {
     margin: 30px 0;
@@ -3155,10 +3108,7 @@ background-image: url(../img/cta-bg-1.png);
     width: 100%;
 }
 
-.map-padding{
+.map-padding {
 
     padding-top: 50px;
 }
-
-
-
