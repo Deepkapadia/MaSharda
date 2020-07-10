@@ -10,15 +10,15 @@
 ============== */
 
 .cl1 {
-    color: #f9004d;
+    color: #f9004d !important;
 }
 
 .cl2 {
-    color: #696969;
+    color: #696969 !important;
 }
 
 .cl3 {
-    color: #fff;
+    color: #fff !important;
 }
 
 /* Gradient 
@@ -172,6 +172,11 @@ li {
 /* Margin & Padding CSS 
 ============== */
 
+.pad6 {
+    padding: 6% !important;
+}
+
+
 .pad-top-0 {
     padding-top: 0;
 }
@@ -220,8 +225,16 @@ li {
     padding-left: 15%;
 }
 
+.pad-lft-5 {
+    padding-left: 5%;
+}
+
 .pad-rgt-15 {
     padding-right: 15%;
+}
+
+.pad-rgt-5 {
+    padding-right: 5%;
 }
 
 .mar-tp-30 {
@@ -937,10 +950,11 @@ textarea:focus::-webkit-input-placeholder {
 
 .about-section {
     position: relative;
-    background-color: #f4f4f4;
+    background-color: #fff;
     background-size: cover;
     background-position: center center;
     padding: 175px 0 120px;
+    background-image: url(../img/abt-bg-01.jpg);
 }
 
 .about-section .content-column {
@@ -986,7 +1000,7 @@ textarea:focus::-webkit-input-placeholder {
     left: 0;
 }
 
-.abt-cor-img {
+.abt-cor-img1 {
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
 }
@@ -1038,6 +1052,21 @@ textarea:focus::-webkit-input-placeholder {
     -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
     -o-box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
     box-shadow: 0 15px 30px rgba(0, 0, 0, .7);
+}
+
+.about-section .image-column .image-2 {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    z-index: 9;
+}
+
+.about-section .image-column .image-2 img {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
 }
 
 .auto-container {
@@ -1357,6 +1386,7 @@ sec-title {
     background-repeat: no-repeat;
     background-position: center left;
     background-size: cover;
+    background-image: url(../img/image-2.jpg)
 }
 
 .what-we-do .image-column .image-box {
@@ -1959,6 +1989,10 @@ p.privacy {
     text-align: right;
 }
 
+.contact-info a {
+    color: #fff;
+}
+
 /* Return to Top CSS 
 ==================== */
 
@@ -2013,6 +2047,7 @@ p.privacy {
 
 .event-card {
     margin-top: 20px;
+    background-image: url(../img/abt-bg-01.jpg)
 }
 
 .event-card .btn {
@@ -3111,4 +3146,332 @@ a.line-btn:hover {
 .map-padding {
 
     padding-top: 50px;
+}
+
+/* Team Section CSS 
+=================== */
+
+.team-area {
+    border-top: 1px solid #eee;
+}
+
+.team-member-bg {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.single-team-member {
+    position: relative;
+    margin-top: 25px;
+}
+
+.single-team-member img {
+    filter: grayscale(.5);
+}
+
+.single-team-member .team-content {
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    text-align: center;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.team-content .team-title {
+    font-weight: 500;
+    margin-bottom: -3px;
+}
+
+.team-content .team-title a {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #191919;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    margin: 16px 0 5px;
+}
+
+.team-content .team-subtitle {
+    font-size: 14px;
+    color: #7c7c7c;
+    margin-bottom: 5px;
+}
+
+ul.team-social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.team-social li {
+    display: inline-block;
+}
+
+ul.team-social li a {
+    color: #f9004d;
+    font-size: 18px;
+    padding: 10px;
+    transition: all .3s ease-out;
+}
+
+.single-team-member:hover .team-social li a {
+    color: #fff;
+}
+
+.single-team-member:hover .team-content {
+    bottom: 0;
+    background-color: #f9004d;
+}
+
+.single-team-member:hover .team-content .team-title a {
+    color: #fff;
+}
+
+.single-team-member:hover .team-content .team-subtitle p {
+    color: #fff;
+    margin: 0;
+}
+
+.team-member-bg {
+    background-image: url(../img/volunteer-1.jpg);
+}
+
+.volunteer-bg-2 {
+    background-image: url(../img/volunteer-1.jpg);
+}
+
+.volunteer-bg-3 {
+    background-image: url(../img/volunteer-1.jpg);
+}
+
+/* About Page Section CSS 
+=================== */
+
+.my-skills {
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+
+.info-skills {
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.info-skills h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #444;
+    position: relative;
+    padding-left: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.info-skills h3::before {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    background: #444;
+    height: 1px;
+    width: 30px;
+    display: block;
+    content: " ";
+}
+
+.my-resume {
+    padding-left: 30px;
+    margin-right: 15px;
+    border-left: 2px solid #f3f2f2;
+    margin-left: 15px;
+}
+
+.skills .skill-box {
+    margin-bottom: 30px;
+}
+
+
+.skills .skill-box:last-of-type {
+    margin-bottom: 0;
+}
+
+.skills .skill-title {
+    margin-bottom: 10px;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.skills .skill-box .progress-line {
+    background: #ddd;
+    height: 5px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+.skills .skill-box .progress-line>span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #f3c26b;
+}
+
+.skills .skill-box .progress-line>span>.percent-tooltip {
+    position: absolute;
+    right: -15px;
+    top: -30px;
+    margin-bottom: 10px;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.img-svg img {
+    padding-right: 40px;
+}
+
+.history-top {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 12px;
+    color: #444 !important;
+    background: #f9f9f9;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid #f3f2f2;
+}
+
+.history-top::before {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #f3f2f2;
+    left: -47px;
+    top: 13px;
+    display: block;
+    content: "";
+}
+
+.title-resume {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #444;
+    position: relative;
+    padding-left: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.title-resume::before {
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    background: #444;
+    height: 1px;
+    width: 30px;
+    display: block;
+    content: " ";
+}
+
+
+.resume-item {
+    background: #f9f9f9;
+    border: 1px solid #f3f2f2;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 24px 0px #00000042;
+}
+
+.resume-item .icon-bg {
+    position: absolute;
+    color: #9b9b9b;
+    bottom: 20px;
+    font-size: 50px;
+    right: 20px;
+    opacity: .1;
+}
+
+.resume-head {
+    border-bottom: 2px solid #f3f2f2;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.icon-exp {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    background: -webkit-linear-gradient(145deg, #f81f01, #ee076e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 10px;
+    float: left;
+    /* border: 1px solid #f3f2f2; */
+    border-radius: 3px;
+}
+
+.content-exper {}
+
+.resume-head .content-exper h4 {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.resume-head.content-exper .history {
+    font-size: 13px;
+    color: #444 !important;
+}
+
+.resume-footer {
+    position: relative;
+}
+
+.resume-footer p {
+    margin-bottom: 0;
+}
+
+.img-resume {
+    margin-top: 25px;
+}
+
+.padlr0 {
+
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.bg1 {
+    color: #fff !important;
+    background-image: none !important;
 }

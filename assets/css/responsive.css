@@ -136,12 +136,6 @@
         padding: 15px 0;
     }
 
-    /*
-    a.nav-link i {
-        display: none;
-    }
-*/
-
     .navbar-toggler {
         padding: 5px 15px;
         font-size: 20px;
@@ -398,7 +392,6 @@
 
     .about-section {
         padding: 50px 0 50px;
-
     }
 
     .about-section-two .sec-title h2,
@@ -590,7 +583,7 @@
     }
 
     .footer-area .logo {
-        width: 100%;
+        width: 60%;
     }
 
     p.privacy {
@@ -718,6 +711,15 @@
     }
 
 }
+
+@media only screen and (max-width: 991px) {
+
+    .abt-content-top {
+        margin-top: -80px;
+    }
+}
+
+
 
 /* Wide Mobile Layout: 480px. */
 
@@ -910,7 +912,7 @@
     }
 
     .footer-area .logo {
-        width: 100%;
+        width: 60%;
     }
 
     p.privacy {
