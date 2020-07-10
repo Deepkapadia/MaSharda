@@ -30,13 +30,6 @@
     -webkit-text-fill-color: transparent;
 }
 
-/* Alignment 
-============== */
-
-.txt-center {
-    text-align: center;
-}
-
 /* Font Weight 
 ============== */
 
@@ -525,31 +518,6 @@ textarea:focus::-webkit-input-placeholder {
 .hero-area-bg-2 {
     background-image: url(../img/hero-area-bg-4.jpg);
     height: 90vh !important;
-}
-
-.hero-area.theme-3 {
-    background-image: url(../img/hero-area-bg-3.jpg);
-    height: 90vh !important;
-}
-
-.cta-area {
-    background-image: url(../img/cta-bg-1.png);
-}
-
-.event-bg-1 {
-    background-image: url(../img/event-bg-1.jpg);
-}
-
-.event-bg-2 {
-    background-image: url(../img/event-bg-2.jpg);
-}
-
-.event-bg-3 {
-    background-image: url(../img/event-bg-3.jpg);
-}
-
-.event-bg-4 {
-    background-image: url(../img/event-bg-4.jpg);
 }
 
 .breadcroumb-area {
