@@ -3443,3 +3443,47 @@ ul.team-social li a {
     color: #fff !important;
     background-image: none !important;
 }
+
+/*Choose Us CSS */
+
+.choose-us-area {
+	background-color: #f3f2f2;
+}
+
+.choose-us-content {
+	padding: 35px;
+	margin-top: 10px;
+}
+
+.choose-us-bg img {
+	border-radius: 10px;
+}
+
+.choose-us-content h5 {
+	font-size: 30px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+.choose-us-content p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.single-choose-item i {
+	font-size: 40px;
+	color: #f81f01;
+	float: left;
+	border: 2px solid;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+.single-choose-content {
+	padding-left: 100px;
+	margin: 30px 0;
+}
+
+.choose-us-bg {
+	margin-top: 40px;
+}
